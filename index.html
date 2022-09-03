@@ -18,9 +18,9 @@
 
   <body>
     <!-- navbar start -->
-    <nav class="navbar py-6 sticky-top navbar-expand-md bg-gray">
-      <div class="container-md">
-        <a class="navbar-brand" href="./index.html"
+    <nav class="navbar py-4 py-md-6 sticky-top navbar-expand-md bg-gray">
+      <div class="container">
+        <a class="navbar-brand p-md-0" href="./index.html"
           ><img
             src="./assets/images/logo.svg"
             class="d-none d-md-block"
@@ -46,24 +46,19 @@
         >
           <span class="material-icons text-primary"> drag_handle </span>
         </button>
-        <!-- <div class="d-flex mt-6 mt-md-0 mx-n3">
-          <div class="bg-primary w-50" style="height: 1px"></div>
-          <div class="bg-blue w-50" style="height: 1px"></div>
-        </div> -->
-        <div class="navbar-borderline"><span class="left"></span><span class="right"></span></div>
         <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
-          <ul class="navbar-nav gap-md-8 mb-md-0 text-center">
-            <li class="nav-item fz-4">
-              <a class="nav-link active pt-6 pb-3 py-md-2" aria-current="page" href="./index.html"
+          <ul class="navbar-nav gap-md-4 mb-md-0 text-center fs-7" style="line-height: 26px">
+            <li class="nav-item">
+              <a class="nav-link active pt-10 pb-3 py-md-2" aria-current="page" href="./index.html"
                 >首頁</a
               >
             </li>
-            <li class="nav-item fz-4">
+            <li class="nav-item">
               <a class="nav-link py-3 py-md-2" href="#">課程介紹</a>
             </li>
-            <li class="nav-item fz-4">
+            <li class="nav-item">
               <a
-                class="nav-link text-center d-flex align-items-center justify-content-center pt-3 pb-0 py-md-2"
+                class="nav-link d-flex align-items-center justify-content-center pt-3 pb-2 py-md-2"
                 href="#"
                 ><span class="material-icons me-1"> account_circle </span>登入</a
               >
@@ -76,48 +71,52 @@
 
     
 <!-- banner start -->
-<div class="container">
-  <section class="row banner justify-content-center align-items-center">
-    <div
-      class="col-md-6 border border-white position-relative text-center py-8 py-md-12 bg-gray-dark"
-    >
-      <div class="position-absolute square top-0 start-0 translate-middle"></div>
-      <div class="position-absolute square top-0 start-100 translate-middle"></div>
-      <div class="position-absolute square top-100 start-0 translate-middle"></div>
-      <div class="position-absolute square top-100 start-100 translate-middle"></div>
-      <h1 class="fs-1 fw-bold mb-6 mb-md-6">
-        <span class="text-gradient">全台最豐富的程式家教</span><br />
-        <span>在實踐中化理想為現實</span>
-      </h1>
-      <h2 class="fs-7">全台最專業師資｜到府程式家教｜客製化課程</h2>
-    </div>
-  </section>
-</div>
-<!-- banner end -->
-<!-- hand over hand start -->
-<section class="bg-gray py-20">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 d-flex align-items-center">
-        <h2 class="fz-8 fw-bold">手把手帶你<br />親自到家教到會</h2>
+<section class="container">
+  <div class="row banner justify-content-center align-items-center">
+    <div class="col-md-6">
+      <div class="border border-white position-relative text-center py-8 py-md-12 bg-gray-dark">
+        <div class="position-absolute square top-0 start-0 translate-middle"></div>
+        <div class="position-absolute square top-0 start-100 translate-middle"></div>
+        <div class="position-absolute square top-100 start-0 translate-middle"></div>
+        <div class="position-absolute square top-100 start-100 translate-middle"></div>
+        <h1 class="fs-4 fs-md-1 fw-bold mb-6 mb-md-6">
+          <span class="text-gradient">全台最豐富的程式家教</span><br />
+          <span>在實踐中化理想為現實</span>
+        </h1>
+        <h2 class="fs-9 fs-md-7">全台最專業師資｜到府程式家教｜客製化課程</h2>
       </div>
-      <div class="col-md-3">
+    </div>
+  </div>
+</section>
+<!-- banner end -->
+<!-- 手把手 start -->
+<section class="bg-gray py-10 py-md-20">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-6">
+      <div class="col d-flex align-items-center justify-content-center justify-content-md-start">
+        <h2
+          class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start fz-8 fw-bold title-decoration"
+        >
+          手把手帶你<br />親自到家教到會
+        </h2>
+      </div>
+      <div class="col">
         <div href="#" class="text-center py-12 px-6 rounded-12 hand-card-hover">
-          <span class="material-icons fs-1 mb-6"> code </span>
+          <span class="material-icons fs-1 mb-6 text-gradient"> code </span>
           <h3 class="fs-7 fw-bold mb-4">超過 100 種專業課程</h3>
           <p class="fs-7">學習標準化的電腦形式語言<br />培養運算思維和邏輯素養</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col">
         <div href="#" class="text-center py-12 px-6 rounded-12 hand-card-hover">
-          <span class="material-icons fs-1 mb-6"> rocket_launch </span>
+          <span class="material-icons fs-1 mb-6 text-gradient"> rocket_launch </span>
           <h3 class="fs-7 fw-bold mb-4">高效學習</h3>
           <p class="fs-7">客製化專屬課表<br />讓學習變簡單</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col">
         <div href="#" class="text-center py-12 px-6 rounded-12 hand-card-hover">
-          <span class="material-icons fs-1 mb-6"> location_on </span>
+          <span class="material-icons fs-1 mb-6 text-gradient"> location_on </span>
           <h3 class="fs-7 fw-bold mb-4">指定地點</h3>
           <p class="fs-7">專業老師到你指定的地點<br />一對一高效學習</p>
         </div>
@@ -125,30 +124,152 @@
     </div>
   </div>
 </section>
-<!-- hand over hand end -->
+<!-- 手把手 end -->
+<!-- 預期上課流程 start -->
+<section class="py-10 py-md-20">
+  <h2 class="d-flex flex-column align-items-center fs-3 fw-bold title-decoration mb-12 mb-md-18">
+    預期上課流程
+  </h2>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-12 g-md-6">
+      <div class="col">
+        <div class="position-relative p-12 border border-white rounded-12">
+          <div
+            class="position-absolute top-0 translate-middle-y fs-1 font-mono fw-bold px-2 text-primary bg-dark"
+            style="left: 40px"
+          >
+            01
+          </div>
+          <h3 class="fs-4 fw-bold mb-4">預約</h3>
+          <p class="fs-7">線上預約指定課程與老師<br />由老師安排專屬課程</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="position-relative p-12 border border-white rounded-12">
+          <div
+            class="position-absolute top-0 translate-middle-y fs-1 font-mono fw-bold px-2 text-primary bg-dark"
+            style="left: 40px"
+          >
+            02
+          </div>
+          <h3 class="fs-4 fw-bold mb-4">付款</h3>
+          <p class="fs-7">支援各種支付方式<br />提供12期分期付款</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="position-relative p-12 border border-white rounded-12">
+          <div
+            class="position-absolute top-0 translate-middle-y fs-1 font-mono fw-bold px-2 text-primary bg-dark"
+            style="left: 40px"
+          >
+            03
+          </div>
+          <h3 class="fs-4 fw-bold mb-4">上課</h3>
+          <p class="fs-7">地點由您指定<br />密集性一對一教學</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="position-relative p-12 border border-white rounded-12">
+          <div
+            class="position-absolute top-0 translate-middle-y fs-1 font-mono fw-bold px-2 text-primary bg-dark"
+            style="left: 40px"
+          >
+            04
+          </div>
+          <h3 class="fs-4 fw-bold mb-4">提供滿意度</h3>
+          <p class="fs-7">提供課程滿意度及回饋<br />讓我們持續成長與進步</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 預期上課流程 end -->
+<!-- 你想要學習的程式 start -->
+<section class="py-10 py-md-20 bg-gray">
+  <h2 class="d-flex flex-column align-items-center fs-3 fw-bold title-decoration mb-6 mb-md-18">
+    你想要學習的程式，都在這裡
+  </h2>
+  <div class="container-fluid overflow-scroll">
+    <div class="container">
+      <div class="d-flex gap-4 b1">
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">JavaScript</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">HTML/CSS</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">SQL</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">Java</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">SQL</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">Bash/Shell</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">Python</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">Python</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">PHP</p>
+        <p class="fs-7 fw-bold px-8 py-6 border border-white rounded-8">C++</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 你想要學習的程式 end -->
 <!-- student feedback start -->
 <section class="feedback py-20">
   <div class="container">
     <h2
-      class="d-flex flex-column align-items-center fs-3 fw-bold text-center title-decoration mb-12"
+      class="d-flex flex-column align-items-center fs-3 fw-bold text-center title-decoration mb-6 mb-md-12"
     >
       專屬你的學習課程<br />超過 3000 位學員得到了程式超能力
     </h2>
     <div class="row justify-content-center">
-      <div class="col-md-8">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
+      <div class="col-md-8 b1">
+        <!-- <div class="feedback-img b1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/images/share.jpg" class="d-block rounded-24" alt="share" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/share.jpg" class="d-block rounded-24" alt="share" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/share.jpg" class="d-block rounded-24" alt="share" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-card bg-white text-start p-6 p-md-8">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h3 class="fw-bold fs-7 mb-4">老師很有耐心</h3>
+                <p>
+                  老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/images/student01.jpg" alt="student01" />
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="swiper mySwiper b1 position-relative">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="swiper-img">
-                <img src="./assets/images/share.jp" class="d-block" alt="share" />
+            <div class="swiper-slide position-relative">
+              <div class="swiper-img b1">
+                <img src="./assets/images/share.jpg" class="rounded-24" alt="share" />
+              </div>
+              <div class="swiper-card bg-white text-start p-6 p-md-8">
+                <h3 class="fw-bold fs-7 mb-4">老師很有耐心</h3>
+                <p>
+                  老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！
+                </p>
+                <img src="./assets/images/student01.jpg" alt="student01" />
               </div>
             </div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
           </div>
 
-          <div class="d-flex">
+          <div class="swiper-button d-flex justify-content-center align-items-center">
             <span class="material-icons swiper-button-prev text-primary"> west </span>
             <div class="swiper-pagination"></div>
             <span class="material-icons swiper-button-next text-primary"> east </span>
