@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Home 程式家教 | 課程介紹</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar py-4 py-md-6 sticky-top navbar-expand-md bg-gray">
+      <div class="container">
+        <a class="navbar-brand p-md-0" href="./index.html"
+          ><img
+            src="./assets/images/logo.svg"
+            class="d-none d-md-block"
+            alt="logo"
+            width="175"
+            height="42"
+          /><img
+            src="./assets/images/logo2.svg"
+            class="d-md-none"
+            alt="logo"
+            width="24"
+            height="24"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="material-icons text-primary"> drag_handle </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+          <ul class="navbar-nav gap-md-4 mb-md-0 text-center fs-7" style="line-height: 26px">
+            <li class="nav-item">
+              <a class="nav-link active pt-10 pb-3 py-md-2" aria-current="page" href="./index.html"
+                >首頁</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-3 py-md-2" href="./course.html">課程介紹</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center justify-content-center pt-3 pb-2 py-md-2"
+                href="#"
+                ><span class="material-icons me-1"> account_circle </span>登入</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    
+<main class="container py-10 pb-lg-20">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <!-- 所有課程 tab start -->
+      <section class="mb-6 mb-lg-12">
+        <div class="d-flex gap-4 overflow-scroll">
+          <a href="#" class="btn btn-outline-primary text-nowrap px-8 py-4 rounded-8">所有課程</a>
+          <a href="#" class="btn btn-outline-white text-nowrap px-8 py-4 rounded-8">行動應用開發</a>
+          <a href="#" class="btn btn-outline-white text-nowrap px-8 py-4 rounded-8"
+            >資料庫/資料科學</a
+          >
+          <a href="#" class="btn btn-outline-white text-nowrap px-8 py-4 rounded-8">前端語言</a>
+          <a href="#" class="btn btn-outline-white text-nowrap px-8 py-4 rounded-8">後端語言</a>
+          <a href="#" class="btn btn-outline-white text-nowrap px-8 py-4 rounded-8"
+            >作業系統與伺服器</a
+          >
+        </div>
+      </section>
+      <!-- 所有課程 tab end -->
+      <!-- 課程卡片列表 start -->
+      <section>
+        <div class="d-lg-flex gap-lg-12 px-6 py-8 p-lg-12 bg-gray rounded-24 mb-6 mb-lg-8">
+          <div class="mb-6 mb-lg-0">
+            <img
+              src="./assets/images/teacher01.jpg"
+              width="100"
+              height="100"
+              class="rounded-circle mb-2 d-block mx-auto"
+              alt="teacher01"
+            />
+            <p class="text-center">Belinda</p>
+          </div>
+          <div class="mb-12 mb-lg-0 me-lg-auto" style="max-width: 576px">
+            <h2 class="h5 fs-lg-4 fw-bold lh-base mb-1">基礎前端 - HTML</h2>
+            <h3 class="h6 mb-2 text-primary lh-base">前端語言</h3>
+            <p>
+              帶領無基礎的平民老百姓，從最基礎的 HTML
+              語法出發，使用最淺顯易懂的語言與生活隨處可見的例子，輕鬆進入網頁架設的世界，完成一個基礎的網頁架設。
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="mb-4">
+              <span class="me-2 me-lg-0 mb-lg-1">50分鐘</span><br class="d-none d-lg-block" /><span
+                class="font-mono h3"
+                >NT$1600</span
+              >
+            </p>
+            <div class="row flex-lg-column gap-2">
+              <div class="col pe-0 pe-lg-3">
+                <a href="#" class="btn btn-outline-white px-4 px-lg-12 py-2 fs-7 rounded-8 d-block"
+                  >課程介紹</a
+                >
+              </div>
+              <div class="col ps-0 ps-lg-3">
+                <a href="#" class="btn-gradient-8-16-107 px-lg-12 fs-7 rounded-8">立即預約</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex gap-lg-12 px-6 py-8 p-lg-12 bg-gray rounded-24 mb-6 mb-lg-8">
+          <div class="mb-6 mb-lg-0">
+            <img
+              src="./assets/images/teacher02.jpg"
+              width="100"
+              height="100"
+              class="rounded-circle mb-2 d-block mx-auto"
+              alt="teacher02"
+            />
+            <p class="text-center">Guava</p>
+          </div>
+          <div class="mb-12 mb-lg-0 me-lg-auto" style="max-width: 576px">
+            <h2 class="h5 fs-lg-4 fw-bold mb-1 lh-base">2022 Python 全攻略｜從入門到實務</h2>
+            <h3 class="h6 mb-2 text-primary lh-base">後端語言</h3>
+            <p>
+              Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態型別系統和垃圾回收功能，能夠自動管理記憶體使用，本堂課帶你無痛入門，開發簡單的應用！
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="mb-4">
+              <span class="me-2 me-lg-0 mb-lg-1">50分鐘</span><br class="d-none d-lg-block" /><span
+                class="font-mono h3"
+                >NT$2000</span
+              >
+            </p>
+            <div class="row flex-lg-column gap-2">
+              <div class="col pe-0 pe-lg-3">
+                <a href="#" class="btn btn-outline-white px-4 px-lg-12 py-2 fs-7 rounded-8 d-block"
+                  >課程介紹</a
+                >
+              </div>
+              <div class="col ps-0 ps-lg-3">
+                <a href="#" class="btn-gradient-8-16-107 px-lg-12 fs-7 rounded-8">立即預約</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex gap-lg-12 px-6 py-8 p-lg-12 bg-gray rounded-24 mb-6 mb-lg-8">
+          <div class="mb-6 mb-lg-0">
+            <img
+              src="./assets/images/teacher03.jpg"
+              width="100"
+              height="100"
+              class="rounded-circle mb-2 d-block mx-auto"
+              alt="teacher03"
+            />
+            <p class="text-center">Joe</p>
+          </div>
+          <div class="mb-12 mb-lg-0 me-lg-auto" style="max-width: 576px">
+            <h2 class="h5 fs-lg-4 fw-bold mb-1 lh-base">
+              活用 Line Bot ｜APP 開發到上架完整實戰攻略
+            </h2>
+            <h3 class="h6 mb-2 text-primary lh-base">行動應用開發</h3>
+            <p>
+              Line Bot
+              可用於實用的目的，如客戶服務或資訊獲取，有些聊天機器人會搭載自然語言處理系統，但大多簡單的系統只會擷取輸入的關鍵字，再從語料庫中找尋最合適的應答句，本堂課會帶你了解
+              Line Bot 如何結合其他工具的應用。
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="mb-4">
+              <span class="me-2 me-lg-0 mb-lg-1">50分鐘</span><br class="d-none d-lg-block" /><span
+                class="font-mono h3"
+                >NT$1800</span
+              >
+            </p>
+            <div class="row flex-lg-column gap-2">
+              <div class="col pe-0 pe-lg-3">
+                <a href="#" class="btn btn-outline-white px-4 px-lg-12 py-2 fs-7 rounded-8 d-block"
+                  >課程介紹</a
+                >
+              </div>
+              <div class="col ps-0 ps-lg-3">
+                <a href="#" class="btn-gradient-8-16-107 px-lg-12 fs-7 rounded-8">立即預約</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex gap-lg-12 px-6 py-8 p-lg-12 bg-gray rounded-24">
+          <div class="mb-6 mb-lg-0">
+            <img
+              src="./assets/images/teacher04.jpg"
+              width="100"
+              height="100"
+              class="rounded-circle mb-2 d-block mx-auto"
+              alt="teacher04"
+            />
+            <p class="text-center">Lina</p>
+          </div>
+          <div class="mb-12 mb-lg-0 me-lg-auto" style="max-width: 576px">
+            <h2 class="h5 fs-lg-4 fw-bold mb-1 lh-base">Linux 零基礎七天入門｜入門到實務</h2>
+            <h3 class="h6 mb-2 text-primary lh-base">作業系統與伺服器</h3>
+            <p>
+              Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用工具。課程會一步一步帶著你走，讓你能夠從頭開始學習程式語言的基本語法
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="mb-4">
+              <span class="me-2 me-lg-0 mb-lg-1">50分鐘</span><br class="d-none d-lg-block" /><span
+                class="font-mono h3"
+                >NT$1100</span
+              >
+            </p>
+            <div class="row flex-lg-column gap-2">
+              <div class="col pe-0 pe-lg-3">
+                <a href="#" class="btn btn-outline-white px-4 px-lg-12 py-2 fs-7 rounded-8 d-block"
+                  >課程介紹</a
+                >
+              </div>
+              <div class="col ps-0 ps-lg-3">
+                <a href="#" class="btn-gradient-8-16-107 px-lg-12 fs-7 rounded-8">立即預約</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 課程卡片列表 end -->
+    </div>
+  </div>
+</main>
+
+
+    <!-- footer start -->
+    <footer class="footer-bg">
+      <p class="font-mono footer-color text-center py-6 mb-0">
+        Coding Home © 2022 All Rights Reserved
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
