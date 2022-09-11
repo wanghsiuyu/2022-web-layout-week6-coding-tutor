@@ -1,0 +1,36 @@
+@mixin pad {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 767px) {
+    @content;
+  }
+}
+@mixin text-gradient {
+  color: transparent;
+  background: linear-gradient($secondary, $primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@mixin btn-gradient($px, $py, $deg) {
+  padding: $px $py;
+  background: linear-gradient($deg, $secondary, $primary);
+  border-radius: 8px;
+}
+@mixin bg-cover($url, $height) {
+  background-image: url($url);
+  height: $height;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@mixin card-article-hover {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: solid $primary;
+  transition: all 0.3s ease;
+}

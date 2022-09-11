@@ -1,1 +1,13 @@
-@import './layout/_index.scss';
+@import '../../../node_modules/bootstrap/scss/functions';
+@import './helpers/variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+//@import 'swiper-bundle';
+@import 'mixin';
+@import 'base';
+@import './layout/layout.scss';
+@import './layout/index.scss';
+@import './layout/course.scss';
+.b1 {
+  outline: 1px dashed gray;
+}

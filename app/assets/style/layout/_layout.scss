@@ -1,0 +1,33 @@
+.footer-color {
+  color: #909090;
+}
+.footer-bg {
+  background: #1a1a1a;
+}
+.navbar {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: $primary;
+    @include mobile() {
+      top: 90px;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 72px;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background-color: $secondary;
+    @include mobile() {
+      top: 90px;
+    }
+  }
+}
